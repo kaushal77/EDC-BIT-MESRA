@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	<!-- Meta, title, CSS, favicons, etc. -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,7 +42,7 @@
 	================================================== -->
 <!-- Start Header
 	================================================== -->
-<header id="header" class="navbar navbar-inverse navbar-fixed-top" role="banner" style="background-color:white;">
+<header id="header" class="navbar navbar-inverse navbar-fixed-top" role="banner" style="background-color:white;position: fixed;">
 <div class="container">
 	<div class="navbar-header">
 		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -64,13 +65,18 @@
 		</li>
 		<li>
 		<a href="#gallery">Gallery</a>
-		</li>
-		
+		</li>		
 		<li>
-		<a href="team.html">Team</a>
+		<a href="team.html" target="_blank">Team</a>
 		</li>
 		<li>
 		<a href="#contactarea">Contact</a>
+		</li>
+		<li>
+		<a href="https://medium.com/@edcbitmesra">blog</a>
+		</li>
+		<li>
+		<a href="partners.html">partners</a>
 		</li>
 	</ul>
 	</nav>
@@ -89,7 +95,7 @@
 	================================================== -->
 <section id="about" class="parallax section" style="background-image: url(http://themepush.com/demo/runcharity/assets/img/1.jpg);">
 <div class="wrapsection">
-	<div class="parallax-overlay" style="background-image:url('p14.jpg');opacity:0.4;"></div>
+	<div class="parallax-overlay" style="background-color: #01b0d1;opacity:0.9;"></div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -106,17 +112,17 @@
 			</div>
 			<div class="col-md-4 col-sm-6">
 				<div class="service-box wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
-					<img src="http://themepush.com/demo/runcharity/assets/img/dummy.jpg" alt="">
-					<h3>December 7, 2017 <br/>Digital Marketing </h3>
+					<h2 style="font-size: 16px;">UPCOMING EVENT</h2>
+					<img src="esummit logo.jpg" alt="">
+					<h3>March 17, 2018 <br/>E-SUMMIT</h3>
 					<div class="text-left">
 						<p>
-							I will place all the necessary content for this event here, including where they can register, join, attend &amp; so on.
-						</p>
-						<p>
-							If not enough room, I will link to learn more, a new event page dedicated.
-						</p>
-						<p>
-							Yap. Really looking goody awesome!
+							The E-Summit will be the annual flagship event of the Entrepreneurship
+								Development Cell, Birla Institute of Technology, Mesra in association with
+								other clubs of the college in order to foster the entrepreneurial /
+								intrapreneurial activities in the campus.It aims at bringing
+								investors, venture capitalists, industrial experts
+								and all those entrepreneurial enthusiasts into one common ground.
 						</p>
 						<p class="text-center">
 							<button type="button" class="btn btn-info btn-md"><a href="#">Learn More</a></button>
@@ -129,49 +135,82 @@
 					<span class="glyphicon glyphicon-stats"></span>
 					<h3>BPlan</h3>
 					<p>
-						Nullam posuere, libero id interdum hendrerit, tortor nisl consectetur elit.
+						Get to know the technical terms involved while running or designing a startup.
 					</p>
-					<button type="button" class="btn btn-info btn-md"><a href="#">Learn More</a></button>
+					<button id="myBtn1" type="button" class="btn btn-info btn-md">Learn More</button>								
+			<div id="myModal1" class="modal">
+			  <!-- Modal content -->
+			  <div class="modal-content">
+			    <span class="close">&times;</span>
+			    <p>EDC, BIT Mesra organized a workshop on "How to make your own B-Plan". It was conducted by Rahul Anand (PGP 2011, IIM Ahmedabad; B.Tech CSE 2005-2009 ,BIT Mesra ) who is currently running his own educational startup B-Factory at Ranchi. It was a two day workshop and broadly covered following topic:</p>
+			  </div>
+			
+			</div>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6">
 				<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.2s">
 					<span class="glyphicon glyphicon-tree-deciduous"></span>
-					<h3>E-Summit</h3>
+					<h3>Innovatory</h3>
 					<p>
-						Nullam posuere, libero id interdum hendrerit, tortor nisl consectetur elit.
+						It exposes students to real life problems and promote them to apply their skills.
 					</p>
-					<button type="button" class="btn btn-info btn-md"><a href="#">Learn More</a></button>
+					<button id="myBtn2" type="button" class="btn btn-info btn-md">Learn More</button>								
+			<div id="myModal2" class="modal">
+			  <!-- Modal content -->
+			  <div class="modal-content">
+			    <span class="close">&times;</span>
+			    <p>Innovatory exposes students to real life problems and promote them to apply their skills and knowledge to improve on the current business models.
+We select some real life problem at our campus and solve them with existing resources available and innovative brains of students.</p>
+			  </div>
+			
+			</div>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6">
 				<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.3s">
 					<span class="glyphicon glyphicon-heart"></span>
-					<h3>NEC</h3>
+					<h3>E-Talk</h3>
 					<p>
-						Nullam posuere, libero id interdum hendrerit, tortor nisl consectetur elit.
+					 In E-Talk we choose a hot topic from the start up world and discuss it.
+
 					</p>
-					<button type="button" class="btn btn-info btn-md"><a href="#">Learn More</a></button>
+					<button id="myBtn3" type="button" class="btn btn-info btn-md">Learn More</button>								
+			<div id="myModal3" class="modal">
+			  <!-- Modal content -->
+			  <div class="modal-content">
+			    <span class="close">&times;</span>
+			    <p>Entrepreneurship Talk is a flagship event of EDC BIT Mesra. In E-Talk we chose a hot topic from the start up world and discuss it with the members of the cell.
+E-Talk aims to create awareness about different things going in the mesmerizing world of Entrepreneurship among students at campus.</p>
+			  </div>
+			
+			</div>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-6">
-				<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.4s">
-					<span class="glyphicon glyphicon-usd"></span>
-					<h3>edc-club</h3>
+			<p><div class="col-md-4 col-sm-6">
+							<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.4s">
+								<span class="glyphicon glyphicon-usd"></span>
+								<h3>Startup-fair</h3>
 					<p>
-						Nullam posuere, libero id interdum hendrerit, tortor nisl consectetur elit.
+						its a start-up fair to give startups a platform to showcase their products.
 					</p>
-					<button type="button" class="btn btn-info btn-md"><a href="#">Learn More</a></button>
-				</div>
+								<button id="myBtn4" type="button" class="btn btn-info btn-md">Learn More</button>								
+			<div id="myModal4" class="modal">
+			  <!-- Modal content -->
+			  <div class="modal-content">
+			    <span class="close">&times;</span>
+			    <p>EDC organizes a start-up fair every year to give startups a platform to showcase their products. Startup Fair is a platform which involves interaction of Entrepreneurs and students and aims to help Start up to recruit the finest talent for internships/jobs.</p>
+			  </div>
+			
 			</div>
+						</div>
+			
+						</div></p>
+
 		</div>
 	</div>
 </div>
 </section>
-<p>
-						Nullam posuere, libero id interdum hendrerit, tortor nisl consectetur elit.
-					</p>
-
 <!-- Gallery
 	================================================== -->
 <section id="gallery" class="parallax section" style="background-image: url(http://themepush.com/demo/runcharity/assets/img/2.jpg);">
@@ -182,73 +221,92 @@
 			<div class="col-md-12 sol-sm-12">
 				<div class="maintitle">
 					<h3 class="section-title">Gallery</h3>
-					<p class="lead wow flipInX" style="color:black;">
-						Have a look at your past events gallery, see how much fun we have while helping people all over the world. Join our community today!
+					<p class="lead currwow flipInX" style="color:black;">
+						Have a look at your past events gallery, see how much fun we have...
 					</p>
 				</div>
 			</div>
 			
 			<div class="col-md-4">
-				<a href="https://ununsplash.imgix.net/photo-1429277158984-614d155e0017?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" title="This is the description">
-					<img src="https://ununsplash.imgix.net/photo-1429277158984-614d155e0017?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
+				<a href="p3.jpg" title="">
+				
+
+					<img src="p3.jpg"alt="" class="image-responsive">
 					<div class="description">
-						<span class="caption">BPlan</span> 
+						<span class="caption">Workshops</span>
 						<span class="camera"><i class="fa fa-camera"></i></span>
 						<div class="clearfix"></div>
 					</div>			
 				</a>
 			</div>
 			<div class="col-md-4">
-				<a href="https://unsplash.imgix.net/uploads/14115408840644deb16b0/2dc933e3?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" title="This is the description">
-				<img src="https://unsplash.imgix.net/uploads/14115408840644deb16b0/2dc933e3?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
+				<a href="p7.jpg" title="">
+				
+
+					<img src="p7.jpg"alt="" class="image-responsive">
 					<div class="description">
-						<span class="caption">E-Summit	</span> 
-						<span class="camera"><i class="fa fa-link"></i></span>
+						<span class="caption">Guest Lectures</span>
+						<span class="camera"><i class="fa fa-camera"></i></span>
 						<div class="clearfix"></div>
-					</div>
+					</div>			
 				</a>
 			</div>
+
 			<div class="col-md-4">
-				<a href="https://ununsplash.imgix.net/photo-1429277096327-11ee3b761c93?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" title="This is the description">
-				<img src="https://ununsplash.imgix.net/photo-1429277096327-11ee3b761c93?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
+				<a href="p8.jpg" title="">
+				
+
+					<img src="p8.jpg"alt="" class="image-responsive" width=200px height=40px>
 					<div class="description">
-						<span class="caption">Running <b>miles</b></span> 
-						<span class="camera"><i class="fa fa-heart"></i></span>
+						<span class="caption">Awareness Program</span>
+						<span class="camera"><i class="fa fa-camera"></i></span>
 						<div class="clearfix"></div>
-					</div>
+					</div>			
 				</a>
 			</div>
+
 			<div class="col-md-4">
-				<a href="https://unsplash.imgix.net/uploads/141327328038701afeede/eda0fb7c?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" title="This is the description">
-				<img src="https://unsplash.imgix.net/uploads/141327328038701afeede/eda0fb7c?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
+				<a href="p20.jpg"><!-- title="This is the description">-->
+				
+
+					<img src="p20.jpg"alt="" class="image-responsive" width=200px height=40px>
 					<div class="description">
-						<span class="caption">Young <b>volunteers</b></span> 
-						<span class="camera"><i class="fa fa-tachometer"></i></span>
+						<span class="caption">E-Talks</span>
+						<span class="camera"><i class="fa fa-camera"></i></span>
 						<div class="clearfix"></div>
-					</div>
+					</div>			
 				</a>
 			</div>
+
+			
+
 			<div class="col-md-4">
-				<a href="https://ununsplash.imgix.net/photo-1418225043143-90858d2301b4?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" title="This is the description">
-				<img src="https://ununsplash.imgix.net/photo-1418225043143-90858d2301b4?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
+				<a href="p13.jpg" title="">
+				
+
+					<img src="p13.jpg"alt="" class="image-responsive" width=200px height=40px>
 					<div class="description">
-						<span class="caption">Charity <b>concerts</b></span> 
-						<span class="camera"><i class="fa fa-microphone"></i></span>
+						<span class="caption">Social events</span>
+						<span class="camera"><i class="fa fa-camera"></i></span>
 						<div class="clearfix"></div>
-					</div>
+					</div>			
 				</a>
 			</div>
+
 			<div class="col-md-4">
-				<a href="https://unsplash.imgix.net/photo-1428908799722-0a74e26ce7f6?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" title="This is the description">
-				<img src="https://unsplash.imgix.net/photo-1428908799722-0a74e26ce7f6?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
+				<a href="p19.jpg" title="Fun events">
+				
+
+					<img src="p19.jpg"alt="" class="image-responsive" width=200px height=40px>
 					<div class="description">
-						<span class="caption">Generous <b>sponsors</b></span> 
-						<span class="camera"><i class="fa fa-coffee"></i></span>
+						<span class="caption">Fun events</span>
+						<span class="camera"><i class="fa fa-camera"></i></span>
 						<div class="clearfix"></div>
-					</div>
+					</div>			
 				</a>
 			</div>
 		</div>
+		<br>
 	</div>
 </div>
 </section>
@@ -364,8 +422,7 @@
 <section id="credits" class="text-center">
 	<span class="social wow zoomIn">
 	<a href="https://www.facebook.com/edcbitmesra"><i class="fa fa-facebook"></i></a>
-	<a href="#"><i class="fa fa-twitter"></i></a>
-	<a href="#"><i class="fa fa-skype"></i></a>
+	
 	<a href="#"><i class="fa fa-linkedin"></i></a>
 	
 	<a href="#"><i class="fa fa-google-plus"></i></a>
@@ -396,5 +453,7 @@
 <script src="assets/js/jquery.magnific-popup.min.js"></script>
 <script src="assets/js/validate.js"></script>
 <script src="assets/js/common.js"></script>
+<script src="assets/js/modal.js"></script>
+
 </body>
 </html>
