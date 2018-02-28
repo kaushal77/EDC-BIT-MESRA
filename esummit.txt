@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<!-- Meta, title, CSS, favicons, etc. -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>EDC BIT MESRA </title>
+	
+	<!-- Styles -->
+	<link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='assets/css/animate.min.css'>
+	<link rel='stylesheet' href="assets/css/font-awesome.min.css"/>
+	<link rel='stylesheet' href="assets/css/style.css"/>
+	<link rel="stylesheet" href="assests/css/clock.css">
+	
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+			
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="#">
+</head>
+<body>
+<section class="banner-area relative" id="home">
+				<div class="overlay overlay-bg"></div>
+				<div class="container">
+						<div class="row fullscreen align-items-center justify-content-center" style="height: 915px;">
+							<div class="banner-content col-lg-6 col-md-12">
+								
+				        		<div class="row clock_sec d-flex flex-row justify-content-between" id="clockdiv" style="margin-top: 30px;">
+				                    <div class="clockinner">
+				                        <span class="days"></span>
+				                        <div class="smalltext">Days</div>
+				                    </div>
+				                    <div class="clockinner">
+				                        <span class="hours"></span>
+				                        <div class="smalltext">Hours</div>
+				                    </div>
+				                    <div class="clockinner">
+				                        <span class="minutes"></span>
+				                        <div class="smalltext">Minutes</div>
+				                    </div>
+				                    <div class="clockinner">
+				                        <span class="seconds"></span>
+				                        <div class="smalltext">Seconds</div>
+				                    </div>
+
+				                </div>
+							</div>
+						</div>
+				</div>
+			</section>
+</body>
+</html>
+
