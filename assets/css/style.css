@@ -1241,7 +1241,14 @@ img.mfp-img {
 					max-width:690px;
 					padding-left:30px;
 					padding-right:30px;
+	}
+	.rfv{
+			margin-right: -5%;
+		top:15.5%;
 	}	
+	.gd{
+		font-size: 175%;
+	}
 }
 @media (max-width:490px) {
 	.wow {
@@ -1266,6 +1273,17 @@ img.mfp-img {
 	.faq-block {
 					margin: 0;
 	}
+	.rfv{
+		margin-right: -9%;
+		top:13%;
+	}
+	.gd{
+		font-size: 145%;
+	}
+}
+@media screen and (max-width: 330px)
+{
+
 }
 .sed{
 
@@ -1425,3 +1443,29 @@ img.mfp-img {
     cursor: pointer;
 }
 
+.rfv {
+    color: red;
+    cursor: pointer;
+    text-decoration: none solid black;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    column-rule-color: black;
+    caret-color: black;
+    border: 0px none black;
+    font: normal normal 700 normal 14px / normal "Open Sans", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    position: fixed;
+    right: 0;
+    top: 16%;
+    z-index: 10000;
+    transform:rotate(90deg);
+    background-color: khaki;
+    padding:10px;
+    margin-top: 30px;
+    margin-right: -2.5%;
+
+}/*#SPAN_1*/
+
+.gd{
+		font-size: 200%;
+	}

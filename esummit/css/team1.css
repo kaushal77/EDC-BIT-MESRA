@@ -1,0 +1,64 @@
+.column {
+    float: left;
+    width: 33%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    margin:0px 0px;
+    
+    font-family: "Poppins" sans-serif;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    
+}
+
+.title {
+    color: grey;
+}
+
+
+
+.button:hover {
+    background-color: #555;
+}
+.tit{
+    background-image: url(https://static1.squarespace.com/static/551a0cf7e4b05d3b4a77dee2/5537ec82e4b07179e5b5dd69/560b0b53e4b016db196d622a/1443564371888/red-stripe-background.jpg?format=1500w);
+    width:100%;
+    height: auto;
+    position: relative;
+}
+.h2{
+    font-size: 20px;
+}
+.butt1{
+    border:4px solid cyan;
+    background: black;
+    opacity:0.9;
+   
+    align-content: center;
+    color:cyan;
+    cursor: pointer;
+    font-size: 26px;
+    
+}

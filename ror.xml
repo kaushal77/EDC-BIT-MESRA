@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		}
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://www.edcbitmesra.in/</title>
+  <link>http://www.edcbitmesra.in/</link>
+
+<item>
+     <link>http://www.edcbitmesra.in/</link>
+     <title>EDC BIT MESRA </title>
+     <description>Entrepreneurship Development Cell was established in 2007 under the aegis of STEP (Science and Technology Entrepreneurs’ Park).</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.edcbitmesra.in/team.html</link>
+     <title>Team|EDC BIT MESRA </title>
+     <description>EDC BIT MESRA has a team of 9 members.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.edcbitmesra.in/partners.html</link>
+     <title>Partners|EDC BIT MESRA </title>
+     <description>Enterprenuership Development Cell BIT MESRA has some of the reknown company as their partners.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.edcbitmesra.in/welcome.html</link>
+     <title>E-SUMMIT|WELCOME</title>
+     <description>E-SUMMIT|WELCOME</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.edcbitmesra.in/index.html</link>
+     <title>EDC BIT MESRA </title>
+     <description>Entrepreneurship Development Cell was established in 2007 under the aegis of STEP (Science and Technology Entrepreneurs’ Park).</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
